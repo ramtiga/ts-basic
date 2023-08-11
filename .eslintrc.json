@@ -1,9 +1,9 @@
 {
     "env": {
-        "es2021": true
+        "es6": true,
         // 環境に応じてenvは変えてください
-        // "node": true,
-        // "browser": true
+         "node": true,
+         "browser": true
     },
     "extends": [
         "eslint:recommended",
@@ -20,8 +20,8 @@
     ],
     "rules": {
         // お好みで設定ください
-        "@typescript-eslint/no-explicit-any": 1,
-        "@typescript-eslint/no-non-null-assertion": 1
+        //"@typescript-eslint/no-explicit-any": 1,
+        //"@typescript-eslint/no-non-null-assertion": 1
     },
     "root": true
 }

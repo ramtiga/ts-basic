@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode=production",
     "start": "webpack-cli serve --mode development",
-    "lint-fix": "npx prettier --write 'src/**/*.ts' && eslint --fix --ext .ts src"
+    "lint": "eslint --fix './src/**/*.{js,ts}' && prettier --write './src/**/*.{js,ts}'"
   },
   "author": "",
   "license": "ISC",
